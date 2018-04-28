@@ -1,28 +1,33 @@
 .App {
   text-align: center;
+  background-color: #6297B6;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+  height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App header {
+  letter-spacing: 4px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.recent-searches p {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.forecast-day {
+  background-color: #FFFFFF;
+  color: #000000;
+  box-shadow: 5px 5px 15px rgb(49, 49, 49);
+  border: 1px solid lightgray;
+  display: inline-block;
+  min-width: 150px;
+  margin: 10px;
+  padding: 10px;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.blank-board {
+  min-height: 200px;
 }
